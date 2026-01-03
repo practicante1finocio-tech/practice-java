@@ -4,7 +4,7 @@ public class Classes {
 
     public static void main(String[] args) {
 
-        var person = new Person("Jaico", 34);
+        var person = new Person("Jaico", -34, "123456789A");
 
         // person.name = "Jaico";
         // person.age = 34;
@@ -12,10 +12,16 @@ public class Classes {
         person.sayHello();
 
         person.name = "Jaico Jara";
-
         System.out.println(person.name);
 
-        var person2 = new Person("Statham", 25);
+        // person.id = "123456789A";
+
+        System.out.println(person.getId());
+
+        person.setAge(34);
+        System.out.println(person.getAge());
+
+        var person2 = new Person("Statham", 25, "123456789B");
         person2.sayHello();
     }
 }

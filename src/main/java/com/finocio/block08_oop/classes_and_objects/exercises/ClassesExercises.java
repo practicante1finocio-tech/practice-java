@@ -1,6 +1,7 @@
-package com.finocio.block08_oop.classes_and_objects.examples;
+package com.finocio.block08_oop.classes_and_objects.exercises;
 
 public class ClassesExercises {
+
     public static void main(String[] args) {
 
         // 1. Crea una clase Book con atributos tittle y author. Crea un objeto y muestra sus datos.
